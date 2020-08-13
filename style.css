@@ -1,0 +1,155 @@
+.main{
+    min-width: 500px;
+    text-align: center;
+    background-color: black; 
+    color: white;
+}
+u1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+}
+a, a:visited {
+    display: block;
+    width: 200px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover, a:active {
+    background-color: #57D47B;
+}
+.Main .img {
+    box-shadow: 0 0 8px 8px white inset;
+}
+.Main .drop {
+    display:none;
+}
+.Main li {
+    position: relative;
+}
+.Main li.drop-button:hover .drop {
+    display: block;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+}
+.Text{
+    position: left;
+    padding-right: 25px;
+    padding-left: 25px;
+    display: inline-block;
+    text-align: left;
+    max-width: 450px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.Picture{
+    position: right;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+.column4 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 1100px;
+    background-color: #2D78A5;
+}
+.column5 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 1100px;
+    background-color: #41A0AB;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.h1 {
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.ol {
+    text-align: center;
+    list-style-position: inside;
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+.astronauts {
+    background-color: white;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+}
+.column1 {
+    background-color: #B10909;
+    float: left;
+    width: 26%;
+    padding: 10px;
+    height: 600px;
+}
+.column2 {
+    background-color: white;
+    float: left;
+    width: 48%;
+    padding: 10px;
+    height: 600px;
+    text-align: center;
+}
+.column3 {
+    background-color: #0832A9;
+    float: left;
+    width: 26%;
+    padding: 10px;
+    height: 600px;
+}
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@font-face {
+   font-family: myFirstFont;
+   src: url(casanova.otf);
+}
+* {
+    font-family: myFirstFont;
+}
+arm.jpg {
+    width: 200;
+    align: "right";
+}
+.head {
+    color: white;
+}
